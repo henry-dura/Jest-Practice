@@ -15,5 +15,9 @@ describe('Check the calculator functions of add,subtract and multiply',()=>{
 
     test('4 multiplied by  5 should be 20',()=>{
         expect(calculator.multiply(4,5)).toBe(20);
+    });
+
+    test('16 divided by  4 should be 4',()=>{
+        expect(calculator.divide(16,4)).toBe(4);
     })
 })
